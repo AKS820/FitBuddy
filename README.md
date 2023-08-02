@@ -1,2 +1,3 @@
-# WebToy
-I am making a random website at WORK because I am bored
+# FitBuddy
+
+A fitness routine tracker! You can input your routine in and have it displayed to you whenever you need, also with multiple capabilities on a calendar where you can adjust the repeatability of the events! It tracks all the statistics for you, such as calories burnt, planned minutes of activity, achieved minutes of activity, etc. Using machine learning, I could add another page where you can input your perceived activity trends and your goals - based on perceived data, a timeline will be given to you (# of days to reach your goals) and you will be suggested various plans that could fit your needs. (Lose weight? Cardio plans. Gain weight? Muscle building plans. Gain endurance? Cardio plans.) Of course, I would have to make all the plans. This will require full stack, data analytics, a lot of writing and planning for fitness routines, and machine learning.
