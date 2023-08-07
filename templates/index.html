@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <body id="tunnelImage">
+        <div class="leftBox"> 
+            <h1 style="font-size: 25px;">Track Your . . .</h1>
+            <br><br>
+            <p>Cardio</p>
+            <br><br>
+            <p>Lifts</p>
+            <br><br>
+            <p>Schedule</p>
+            <br><br>
+            <p>Diet</p>
+            <br><br>
+            <p>Statistics</p>
+         </div>
+        <div class="centerBox"> 
+            <h1 style="font-size: 72px; text-shadow: 0 0 8px rgb(0, 0, 0);"> Welcome! </h1>
+            <p style = "margin-left: 10px; margin-right: 10px;"> Say hello to FitnessBuddy, a fitness routine tracker! You can input your routine in and have it displayed to you whenever you need! With multiple capabilities including a calendar where you can adjust the repeatability of the event, you can keep track of all the statistics, such as calories burnt, planned minutes of activity, achieved minutes of activity, etc. With machine learning capabilities as well, FitnessBuddy is the epitome of technological exercise innovation! Click on the right to register an account today.</p>
+            <h2  style="font-size: 45px;"> Recent Articles </h2>
+            {% for post in posts %}
+                <p style="text-align: left;font-size: 20px; font-weight: bold;">{{ post['title'] }}</p>
+                <!--<span style="float:left;">{{ post['content'] }}</span>-->
+                <span style="text-align: left; background-color: #63f7b4" class="badge badge-primary" >{{ post['created'] }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="rightBox"></div>
+    </body>
+{% endblock %}

@@ -1,0 +1,89 @@
+#navbar li {
+    float: left;
+}
+  
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Roboto';
+}
+
+#navbar li a:hover {
+    background-color: #63f7b4;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar {
+    background-color: rgb(0, 0, 0);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tunnelImage {
+    background-image: url(image.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.leftBox {
+    float:left;
+    width: 250px;
+    height: 600px;
+    margin: 40px 40px 40px 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #63f7b4;
+    color:   #63f7b4;
+    text-align: center;
+    padding: 10px;
+}
+
+.list{
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list li {
+    float:left;
+}
+
+.centerBox {
+    float:left;
+    width: 778px;
+    height: 600px;
+    margin: 40px 40px 40px 40px;
+    font-family: 'Roboto';
+    color:   #63f7b4;
+    text-align: center;
+    background-color: black; padding: 10px;
+    border-radius: 25px;
+    border-style: solid;
+}
+
+
+.rightBox {
+    float:left;
+    width: 250px;
+    height: 200px;
+    margin: 40px 40px 40px 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #63f7b4;
+}
+
